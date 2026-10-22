@@ -7,3 +7,9 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 body{overflow-x:clip}.hero{overflow:clip}.judgment.spared{background:#212b17;border-color:#3d4c2c}@media(min-width:651px) and (max-width:1000px){.hero{min-height:1000px;padding-top:55px}.hero-copy{max-width:580px}h1{font-size:70px}.hero-copy>p{max-width:430px}.hero-foot{flex-direction:row}.art-stage{width:78%;height:570px;right:-2%;top:390px}.hero-word{bottom:0}.verdict-float{bottom:90px;left:12%}.float-status{right:0;top:100px}}
+
+.medusa-mark{display:inline-block;width:36px;height:36px;position:relative;overflow:hidden;flex-shrink:0;vertical-align:middle}.medusa-mark img{position:absolute;width:200%;max-width:none;height:200%;left:-49%;top:-44%;object-fit:contain;mix-blend-mode:screen}.steps li>.medusa-mark{width:28px;height:28px;margin-bottom:26px}.terminal-head .medusa-mark{width:22px;height:22px}.vision>.medusa-mark{display:block;width:60px;height:60px;margin:auto}.wallet-modal>.medusa-mark{width:45px;height:45px}footer .brand .medusa-mark{width:27px;height:27px}@media(max-width:650px){.brand .medusa-mark{width:30px;height:30px}.steps li>.medusa-mark{width:25px;height:25px;margin-bottom:18px}.vision>.medusa-mark{width:45px;height:45px}}
+
+
+.interactive-portrait{pointer-events:auto;touch-action:pan-y}.interactive-portrait>img,.interactive-portrait>canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.interactive-portrait>canvas{display:block}.interactive-portrait>img{pointer-events:none}@media(hover:hover){.interactive-portrait{cursor:crosshair}}
+
